@@ -1,0 +1,24 @@
+{
+    "name": "hotarunohikari/dr-tree",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hotarunohikari",
+            "email": "machigaisagashi@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+		"ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-bcmath": "*",
+		"topthink/think-installer":">=1.0.0",
+		"topthink/framework": "^5.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "dr\\tree\\": "src"
+        }
+    }
+}
