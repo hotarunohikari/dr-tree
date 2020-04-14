@@ -2,7 +2,8 @@
 
    基于TP5+的树形结构工具
 
-   /**
+   
+    /**
      * 设置数据表,不带前缀
      * @param $tableName
      * @return mixed
