@@ -96,7 +96,7 @@ class DrMptt implements DrTree
         isset($primaryKey) && $this->primaryKey = $primaryKey;
         isset($floorKey) && $this->floorKey = $floorKey;
         isset($memberKey) && $this->memberKey = $memberKey;
-        $this->fullTableName = $prefix = config('database.prefix') . $this->tableName;
+        $this->fullTableName = config('database.prefix') . $this->tableName;
     }
 
 
